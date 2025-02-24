@@ -35,7 +35,7 @@
     --Color-primary-light: #faf4ea;
     --Color-secondary-dark: #A28268;
     --Color-brand-dark: #465929;
-    --Color-brand-normal: #819b57;
+    --Color-brand-normal: #CC0000;
     --Color-brand-light: #cfcfbc;
 }
 
@@ -179,7 +179,7 @@ ul {
     rgba(18, 18, 17, 0.78) 2.03%, 
     rgba(18, 18, 17, 0.6) 58.46%,
     rgba(18, 18, 17, 0) 90.36%),
-    url('../images/hero-section-background.jpg');
+    url('/images/team2.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -230,7 +230,7 @@ ul {
 }
 
 /* Traditions section */
-.traditions-section {
+.me-section {
     padding-top: 96px;
 }
 
@@ -245,12 +245,12 @@ ul {
 }
 
 .traditions-title {
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 }
 
 .traditions-text .brand {
     color: var(--Color-brand-normal);
-    font-weight: 600;
+    font-weight: 600px;
 }
 
 .traditions-text .uppercase {
@@ -258,7 +258,7 @@ ul {
 }
 
 .traditions-text.limited {
-    max-width: 330px;
+    max-width: 500px;
 }
 
 /* Chefs section */
@@ -334,7 +334,7 @@ ul {
 }
 
 .format-card {
-    height: 444px;
+    height: 600px;
     padding: 24px;
     background-image: linear-gradient(180deg,
             rgba(49, 38, 26, 0) 55.21%,
@@ -428,9 +428,9 @@ ul {
 
 .footer::before{
     width: 180px;
-    height: 120px;
+    height: 200px;
     left: 0;
-    background-image: url('../images/decor-bread-small.png');
+    background-image: url('/images/gloves.png');
 }
 
 .footer::after{
@@ -438,7 +438,7 @@ ul {
     width: 360px;
     height: 190px;
     right: 0;
-    background-image: url('../images/decor-bread-large.png');
+    background-image: url('/images/karate.png');
 }
 
 .footer-container{
