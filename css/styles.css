@@ -34,7 +34,6 @@
     --Color-primary-dark: #31261a;
     --Color-primary-light: #faf4ea;
     --Color-secondary-dark: #A28268;
-    --Color-brand-dark: #465929;
     --Color-brand-normal: #CC0000;
     --Color-brand-light: #cfcfbc;
 }
@@ -111,7 +110,7 @@ ul {
 }
 
 .button:hover {
-    color: var(--Color-brand-dark);
+    color: var(--Color-brand-normal);
     background-color: transparent;
 }
 
@@ -165,11 +164,6 @@ ul {
     flex-grow: 1;
     justify-content: center;
 }
-
-/* @media screen and (max-width: 1200px) {
-    {display: none;}
- } */
-
 
 
 /* Hero section */
@@ -226,49 +220,64 @@ ul {
 }
 
 .section-title .accent {
-    color: var(--Color-brand-dark);
+    color: var(--Color-brand-normal);
 }
 
-/* Traditions section */
-.me-section {
+/* Biography section */
+.biography-section {
     padding-top: 96px;
 }
 
-.traditions-container {
+
+
+.biography-content {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    flex-direction: column;
 }
 
-.traditions-content {
-    max-width: 710px;
-}
-
-.traditions-title {
+.biography-title {
     margin-bottom: 30px;
 }
 
-.traditions-text .brand {
+.biography-info{
+   
+    display: flex;
+    flex-direction: row;    
+    gap: 40px;
+
+}
+
+.biography-info div{
+    width: 500px;
+    height: auto;
+}
+
+.biography-info img{
+    width: 500px;
+    height: auto;
+}
+
+.biography-text .brand {
     color: var(--Color-brand-normal);
     font-weight: 600px;
 }
 
-.traditions-text .uppercase {
+.biography-text .uppercase {
     text-transform: uppercase;
 }
 
-.traditions-text.limited {
+.biography-text.limited {
     max-width: 500px;
 }
 
-/* Chefs section */
-.chefs-title {
+/* Technology section */
+.techno-title {
     position: relative;
     margin: 0 auto 80px;
 }
 
-.chefs-title::before,
-.chefs-title::after {
+.techno-title::before,
+.techno-title::after {
     position: absolute;
     bottom: 24px;
     display: block;
@@ -277,63 +286,63 @@ ul {
     content: '';
 }
 
-.chefs-title::before{
+.techno-title::before{
     left: 0;
 }
 
-.chefs-title::after{
+.techno-title::after{
     right: 0;
 }
 
-.chefs-list {
+.techno-list {
     display: flex;
     gap: 30px;
 }
 
-.chefs-item {
+.techno-item {
     flex-basis: calc((100% - 30px) / 2);
 }
 
-.chef-card {
+.techno-card {
     display: flex;
     gap: 30px;
 }
 
-.chef-photo {
+.techno-photo {
     border-radius: 4px 4px 4px 200px;
     box-shadow: -16px 16px 0 0 var(--Color-primary-light), -16px 16px 0 2px var(--Color-secondary-dark);
 }
 
-.chefs-title {
+.techno-title {
     margin-bottom: 16px;
     font-weight: 600;
 }
 
-.chef-text p{
+.techno-text p{
     margin-bottom: 24px;
 }
 
-.chef-text p:last-child{
+.techno-text p:last-child{
     margin-bottom: 0;
 }
 
-/* Formats section */
-.formats-container{
+/* Achievements section */
+.achievements-container{
     display: flex;
     align-items: center;
     gap: 32px;
 }
-.formats-list {
+.achievements-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.formats-item {
+.achievements-item {
     flex-basis: calc((100% - 40px) / 3);
 }
 
-.format-card {
+.achievements-card {
     height: 600px;
     padding: 24px;
     background-image: linear-gradient(180deg,
@@ -346,21 +355,21 @@ ul {
     transition: transform 0.3s;
 }
 
-.format-card:hover {
+.achievements-card:hover {
     transform: scale(1.05);
 
 }
 
-.formats-title {
+.achievements-title {
     margin-bottom: 80px;
 }
 
-.format-title {
+.achievements-title {
     font-size: 24px;
     font-weight: 600;
 }
 
-.format-text {
+.achievements-text {
     font-size: 14px;
     font-weight: 300;
 }
