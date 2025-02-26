@@ -296,7 +296,8 @@ ul {
 
 .techno-list {
     display: flex;
-    gap: 30px;
+    gap: 40px 30px;
+    flex-wrap: wrap;
 }
 
 .techno-item {
@@ -437,16 +438,16 @@ ul {
 
 .footer::before{
     width: 180px;
-    height: 200px;
-    left: 0;
+    height: 150px;
+    right: 40px;
+    left: 50px;
     background-image: url('/images/gloves.png');
 }
 
 .footer::after{
-
     width: 360px;
     height: 190px;
-    right: 0;
+    right: 20px;
     background-image: url('/images/karate.png');
 }
 
