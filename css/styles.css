@@ -161,6 +161,11 @@ ul {
     flex-grow: 1;
     gap: 40px;
 }
+/* 
+.header-nav image{
+    width: 100px;
+    height: auto;
+} */
 
 .header-menu {
     display: flex;
@@ -298,7 +303,7 @@ ul {
 
 .techno-list {
     display: flex;
-    gap: 40px 30px;
+    gap: 80px 30px;
     flex-wrap: wrap;
 }
 
@@ -312,8 +317,8 @@ ul {
 }
 
 .techno-photo {
-    width: 400px;
-    height: auto;
+    width: 300px;
+    height: 400px;
     border-radius: 4px 4px 4px 200px;
     box-shadow: -16px 16px 0 0 var(--Color-primary-light), -16px 16px 0 2px var(--Color-secondary-dark);
 }
@@ -624,6 +629,73 @@ ul {
 .form-terms-link{
     color: var(--Color-primary-dark);
     text-underline-offset: 2px;
+}
+
+/* Media Queries */
+/* Media query for screen sizes smaller than 1200px */
+@media (max-width: 1200px) { 
+    .header-container {
+        gap: 20px;
+    }
+
+    .hero-title {
+        font-size: 100px;
+    }
+
+    .advantages-list {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
+/* Media query for screen sizes smaller than 768px */
+@media (max-width: 768px) { 
+    body {
+        font-size: 16px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-title {
+        font-size: 64px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .biography-info {
+        flex-direction: column;
+    }
+
+    .achievements-container {
+        flex-direction: column;
+    }
+}
+
+ /* Media query for screen sizes smaller than 480px */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .button {
+        padding: 12px 24px;
+    }
+
+    .form-input {
+        padding: 12px 24px;
+    }
+
+    .footer-container {
+        padding: 10px;
+    }
 }
 
 /* .checkbox{
