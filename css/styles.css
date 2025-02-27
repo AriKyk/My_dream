@@ -133,16 +133,6 @@ ul {
     background-color: transparent;
 }
 
- /* @media screen {
-        {display: none;}
- } */
-
-/*  .button:disabled {
-    color: gray;
-    background-color: lightgrey;
-    border-color: currentColor;
-    cursor: not-allowed; 
-} */
 
 /* Link */
 .link {
@@ -244,7 +234,7 @@ ul {
     text-align: center;
 }
 
-.section-title .accent {
+.section-title.accent {
     color: var(--Color-brand-normal);
 }
 
@@ -395,7 +385,7 @@ ul {
 }
 
 .achievements-title {
-    /* margin-bottom: 80px; */
+    margin-bottom: 80px;
     height: 90px;
     font-weight: 600;
     color:#cfcfbc;
@@ -473,18 +463,17 @@ ul {
     content: '';
 }
 
-.footer::before{
-    width: 180px;
-    height: 150px;
+/* .footer::before{
+    height: 200px;
     right: 40px;
-    left: 50px;
+    left: -50px;
     background-image: url('/images/gloves.png');
-}
+} */
 
 .footer::after{
     width: 360px;
-    height: 190px;
-    right: 20px;
+    height: 225px;
+    right: -100px;
     background-image: url('/images/karate.png');
 }
 
@@ -522,6 +511,7 @@ ul {
     flex-grow: 1; 
 }
 
+/* Adress */
 .address-link {
     color: var(--Color-primary-light);
     font-size: 16px;
@@ -646,97 +636,34 @@ ul {
     text-underline-offset: 2px;
 }
 
-/* Media Queries
-/* Media query for screen sizes smaller than 1200px */
-/* @media (max-width: 1200px) { 
-    .header-container {
-        gap: 20px;
-    }
-
-    .hero-title {
-        font-size: 100px;
-    }
-
-    .advantages-list {
-        flex-direction: column;
-    }
-
-    .footer-container {
-        flex-direction: column;
-    }
+/* Video */
+.video-section{ 
+    padding: 48px;
+    margin-bottom: 50px;
 }
 
-/* Media query for screen sizes smaller than 768px */
-@media (max-width: 768px) { 
-    body {
-        font-size: 16px;
-    }
-
-    .header-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero-title {
-        font-size: 64px;
-    }
-
-    .container {
-        padding: 0 16px;
-    }
-
-    .biography-info {
-        flex-direction: column;
-    }
-
-    .achievements-container {
-        flex-direction: column;
-    }
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
- /* Media query for screen sizes smaller than 480px */
-@media (max-width: 480px) {
-    .hero-title {
-        font-size: 40px;
-    }
-
-    .button {
-        padding: 12px 24px;
-    }
-
-    .form-input {
-        padding: 12px 24px;
-    }
-
-    .footer-container {
-        padding: 10px;
-    }
-} 
-
-/* .checkbox{
-    position: relative;
+.video-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
-.checkbox-input{
-    appearance: none;
+.video {
+    width: 1200px;
+    height: auto;
+    display: block;
 }
 
-.checkbox-input:checked + .checkbox-label::before{
-    background-color: var(--Color-secondary-dark);
+.video-section-title.centered{
+    display: flex;
+    font-size: 64px;
+    font-weight: 900;
 }
-
-.checkbox-label{
-    padding-left: 24px;
-}
-
-.checkbox-label::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 4px;
-    width: 16px;
-    height: 16px;
-    border: 1px solid var(--Color-primary-dark);
-    border-radius: 2px;
-    content: '';
-} */
