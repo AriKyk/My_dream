@@ -118,6 +118,21 @@ ul {
     background-color: transparent;
 }
 
+.button.info {
+    padding: 16px 32px;
+    color: var(--Color-primary-light);
+    font-weight: 600;
+    background-color: var(--Color-brand-normal);
+    border: 2px solid var(--Color-brand-normal);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button.info:hover {
+    color: var(--Color-brand-normal);
+    background-color: transparent;
+}
+
  /* @media screen {
         {display: none;}
  } */
@@ -161,11 +176,12 @@ ul {
     flex-grow: 1;
     gap: 40px;
 }
-/* 
-.header-nav image{
+
+.header-image{
     width: 100px;
     height: auto;
-} */
+    background-color: #CC0000;
+}
 
 .header-menu {
     display: flex;
@@ -251,17 +267,19 @@ ul {
 .biography-info{
     display: flex;
     flex-direction: row;    
-    gap: 40px;
+    gap: 200px;
 }
 
 .biography-info div{
     width: 500px;
     height: auto;
+    font-size: 23px;
 }
 
 .biography-info img{
-    width: 300px;
-    height: auto;
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
 }
 
 .biography-text .brand {
@@ -386,10 +404,6 @@ ul {
     border-radius: 20px 0px;
     padding: 10px;
     text-align: center;
-}
-
-.achievements-title {
-    
 }
 
 .achievements-text {
@@ -565,6 +579,7 @@ ul {
     right: 40px;
 }
 
+
 /* Form */
 .form-field{
     position: relative;
@@ -631,9 +646,9 @@ ul {
     text-underline-offset: 2px;
 }
 
-/* Media Queries */
+/* Media Queries
 /* Media query for screen sizes smaller than 1200px */
-@media (max-width: 1200px) { 
+/* @media (max-width: 1200px) { 
     .header-container {
         gap: 20px;
     }
@@ -696,7 +711,7 @@ ul {
     .footer-container {
         padding: 10px;
     }
-}
+} */
 
 /* .checkbox{
     position: relative;
