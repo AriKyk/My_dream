@@ -188,7 +188,7 @@ ul {
     rgba(18, 18, 17, 0.78) 2.03%, 
     rgba(18, 18, 17, 0.6) 58.46%,
     rgba(18, 18, 17, 0) 90.36%),
-    url('/images/team2.png');
+    url('images/team2.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -449,7 +449,7 @@ ul {
     padding: 32px 0;
     position: relative;
     background-color: var(--Color-primary-dark);
-    background-image: url('../images/footer-background\ 2.png');
+    background-image: url('./images/footer-background\ 2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -463,18 +463,12 @@ ul {
     content: '';
 }
 
-/* .footer::before{
-    height: 200px;
-    right: 40px;
-    left: -50px;
-    background-image: url('/images/gloves.png');
-} */
 
 .footer::after{
     width: 360px;
     height: 225px;
     right: -100px;
-    background-image: url('/images/karate.png');
+    background-image: url('images/karate.png');
 }
 
 .footer-container{
