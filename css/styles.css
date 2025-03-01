@@ -188,7 +188,7 @@ ul {
     rgba(18, 18, 17, 0.78) 2.03%, 
     rgba(18, 18, 17, 0.6) 58.46%,
     rgba(18, 18, 17, 0) 90.36%),
-    url('images/team2.png');
+    url('../images/team2.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -468,7 +468,7 @@ ul {
     width: 360px;
     height: 225px;
     right: -100px;
-    background-image: url('images/karate.png');
+    background-image: url('../images/karate.png');
 }
 
 .footer-container{
