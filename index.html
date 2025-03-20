@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Моя мрія</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.ico" type="image/png">
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -18,10 +20,13 @@
             <ul class="header-menu">
               <li><a class="link" href="#biography-section">Про мене</a></li>
               <li>
-                <a class="link" href="#techno-section">Майбутні технології</a>
+                <a class="link" href="#achievements-section">Досягнення</a>
               </li>
               <li>
-                <a class="link" href="#achievements-section">Досягнення</a>
+                <a class="link" href="#video-section">Тренування</a>
+              </li>
+              <li>
+                <a class="link" href="#techno-section">Майбутнє</a>
               </li>
               <li><a class="link" href="#contact-section">Контакти</a></li>
             </ul>
@@ -52,7 +57,6 @@
 
       <section class="biography-section section" id="biography-section">
         <div class="container">
-        
             <div class="biography-content">
               <h2 class="biography-title section-title centered">Про мене</h2>
               <div class =  "biography-info">
@@ -83,8 +87,7 @@
 
                 <img class="biography-info img"
                   src="./images/kids.jpg"
-                  alt="Аріна показує дітям техніку ударів"
-                />
+                  alt="Аріна показує дітям техніку ударів"/>
               </div>
             </div>
           
@@ -131,6 +134,13 @@
         </div>
       </section>
 
+      <section class="video-section section" id="video-section">
+        <div class="video-container">
+          <h2 class="video-title video-section-title centered">Запрошуємо на тренування!</h2>
+          <video class="video" src="./video/video.team.mp4" controls></video>
+        </div>
+      </section>
+
       <section class="section" id="techno-section">
         <div class="container">
           <h2 class="techno-title section-title centered">
@@ -143,8 +153,7 @@
                 <img
                   class="techno-photo"
                   src="./images/technology.jpg"
-                  alt="sparring partner robots"
-                />
+                  alt="sparring partner robots"/>
                 <div>
                   <h3>Роботи-спаринг-партнери</h3>
                   <div class="techno-text">
@@ -181,8 +190,7 @@
                 <img
                   class="techno-photo"
                   src="./images/program.jpg"
-                  alt="a program for training analysis"
-                />
+                  alt="a program for training analysis"/>
                 <div>
                   <h3>
                     Програма для аналізу тренувань
@@ -198,8 +206,7 @@
                 <img
                   class="techno-photo"
                   src="./images/gen_ex.jpg"
-                  alt="smart exercise generator"
-                />
+                  alt="smart exercise generator"/>
                 <div>
                   <h3>
                     Розумний генератор вправ
@@ -292,41 +299,35 @@
               <form name="contact-form" autocomplete="off" novalidate>
                 <div class="form-field">
                   <label class="form-label visually-hidden" for="user-name"
-                    >Ім'я</label
-                  >
+                    >Ім'я</label>
                   <input
                     class="form-input"
                     type="text"
                     name="user-name"
                     id="user-name"
-                    placeholder="Ім'я"
-                  />
+                    placeholder="Ім'я"/>
                 </div>
 
                 <div class="form-field">
                   <label class="form-label visually-hidden" for="user-tel"
-                    >Телефон</label
-                  >
+                    >Телефон</label>
                   <input
                     class="form-input"
                     type="tel"
                     name="user-tel"
                     id="user-tel"
-                    placeholder="Телефон"
-                  />
+                    placeholder="Телефон"/>
                 </div>
 
                 <div class="form-field">
                   <label class="form-label visually-hidden" for="user-email"
-                    >Електронна пошта</label
-                  >
+                    >Електронна пошта</label>
                   <input
                     class="form-input"
                     type="email"
                     name="user-email"
                     id="user-email"
-                    placeholder="Електронна пошта"
-                  />
+                    placeholder="Електронна пошта"/>
                 </div>
 
                 <button class="form-button button" type="submit">
@@ -335,8 +336,7 @@
                 <p class="form-terms">
                   Натискаючи на кнопку я погоджуюсь з
                   <a class="form-terms-link" href="#"
-                    >політикою конфіденційності</a
-                  >
+                    >політикою конфіденційності</a>
                 </p>
               </form>
             </div>
@@ -347,8 +347,7 @@
               height="595"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            >
+              referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
         </div>
@@ -364,30 +363,28 @@
               </a>
             </div>
             <ul class="footer-menu">
-              <li><a class="link" href="#">Про мене</a></li>
-              <li><a class="link" href="#">Майбутні технології</a></li>
-              <li><a class="link" href="#">Досягнення</a></li>
-              <li><a class="link" href="#">Контакти</a></li>
+              <li><a class="link" href="#biography-section">Про мене</a></li>
+              <li><a class="link" href="#achievements-section">Досягнення</a></li>
+              <li><a class="link" href="#video-section">Тренування</a></li>
+              <li><a class="link" href="#techno-section">Майбутнє</a></li>
+              <li><a class="link" href="#contact-section">Контакти</a></li>
             </ul>
           </nav>
           <address class="footer-address">
             <ul class="address-list">
               <li>
                 <a class="address-link" href="tell:+380987803029"
-                  >+ 38 (098) 780 30 29</a
-                >
+                  >+ 38 (098) 780 30 29</a>
               </li>
               <li>
                 <a class="address-link" href="mailto:my.dream@gmail.com"
-                  >my.dream@gmail.com</a
-                >
+                  >my.dream@gmail.com</a>
               </li>
               <li>
                 <a
                   class="address-link"
                   href="https://maps.app.goo.gl/cLdaxrxthdg1EGpN6"
-                  >Україна, м. Житомир, вул.Леха Качинського, 10</a
-                >
+                  >Україна, м. Житомир, вул.Леха Качинського, 10</a>
               </li>
               <li>
                 <a href="#"></a>
@@ -404,8 +401,7 @@
             </ul>
             <div class="address-info">
               <a class="address-link" href="#" target="_blank"
-                >Політика конфіденційності</a
-              >
+                >Політика конфіденційності</a>
               <p class="address-copyright">&copy; 2022 Дані захищені</p>
             </div>
           </address>
@@ -428,14 +424,12 @@
               name="user-name"
               id="user-name"
               placeholder="Ім'я"
-              required
-            />
+              required/>
           </div>
 
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-tel"
-              >Телефон</label
-            >
+              >Телефон</label>
             <input
               class="form-input"
               type="tel"
@@ -443,29 +437,20 @@
               id="user-tel"
               pattern="^\+{0-9{12}}"
               placeholder="Телефон"
-              required
-            />
+              required/>
           </div>
 
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-email"
-              >Електронна пошта</label
-            >
+              >Електронна пошта</label>
             <input
               class="form-input"
               type="email"
               name="user-email"
               id="user-email"
               placeholder="Електронна пошта"
-              required
-            />
+              required/>
           </div>
-
-          <!-- <div class="checkbox">
-                        <label class="checkbox-label" for="terms-conditions">Я точно погоджуюся з політикою конфіденційності </label><input class="checkbox-input visually-hidden" type="checkbox" id="terms-conditions" name="terms-conditions">
-                
-                    </div> -->
-
           <button class="form-button button modal-btn-order" type="submit">
             Надіслати
           </button>
