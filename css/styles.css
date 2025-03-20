@@ -204,6 +204,7 @@ ul {
     background-size: cover;
 }
 
+
 .hero-title {
     margin-bottom: 0;
     color: var(--Color-primary-light);
@@ -353,6 +354,11 @@ ul {
 .techno-text p:last-child{
     margin-bottom: 0;
 }
+/* @media screen and (max-width: 1200px) {
+    width: 200px;
+    height: 300px;
+    
+} */
 
 /* Achievements section */
 .achievements-container{
